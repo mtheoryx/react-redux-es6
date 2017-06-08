@@ -1,0 +1,20 @@
+{
+  "name": "react-redux-es6",
+  "version": "1.0.0",
+  "description": "Follow-along for Pluralsight Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtheoryx/react-redux-es6.git"
+  },
+  "keywords": ["training", "react", "redux", "pluralsight"],
+  "author": "David R Poindexter III",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtheoryx/react-redux-es6/issues"
+  },
+  "homepage": "https://github.com/mtheoryx/react-redux-es6#readme"
+}
