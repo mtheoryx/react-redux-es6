@@ -7,3 +7,5 @@
 - Babel (6+)
 - Babel polyfill
 - Webpack (1.13)
+- nvm
+- Node 6+
