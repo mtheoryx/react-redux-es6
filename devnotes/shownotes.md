@@ -30,3 +30,27 @@
 ### Stateless Component
 
 - Everywhere else!
+
+## Container vs Presentational Components
+
+### Container
+
+- Little to no markup
+- Pass data and actions down
+- Know about redux (actions/dispatch)
+- Often statefull
+
+### Presentational
+
+- Nearly all markup (dumb, no logic)
+- Receive data and actions via props
+- Doesn't know about redux, actions, dispatch
+- Typically, functional components
+
+### Jargon Explained
+
+| Container       | Presentational |
+| --------------- | -------------- |
+| Smart           | Dumb           |
+| Statefull       | Stateless      |
+| Controller View | View           |
