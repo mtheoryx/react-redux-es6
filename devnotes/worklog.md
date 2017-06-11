@@ -12,3 +12,18 @@ Complete the course, understand create-react-app in depth.
 Go through env setup videos
 
 ## Course Outline
+
+- Intro
+- Environment Setup
+- React Component Approaches
+- Initial App Structure
+- Intro to Redux
+- Actions, Stores, and Reducers
+- Connecting React to Redux
+- Redux Flow
+- Async in Redux
+- Async Writes in Redux
+- Async Status and Error Handling
+- Testing React
+- Testing Redux
+- Production Builds
