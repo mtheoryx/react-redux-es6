@@ -9,7 +9,6 @@ Complete the course, understand create-react-app in depth.
 
 ## Current Working Goal
 
-Configure working git email config for author
 Go through the Initial App Structure videos
 
 ## Course Outline
