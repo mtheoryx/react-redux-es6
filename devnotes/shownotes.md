@@ -17,3 +17,16 @@
 - ES5 stateless function
 - ES6 stateless function
 - And many more...
+
+## When to use each style?
+
+### Class Component
+
+- Need to use State
+- Need to use Refs (reference to underlying DOM)
+- Any Lifecycle hooks
+- Child functions (for performance)
+
+### Stateless Component
+
+- Everywhere else!
