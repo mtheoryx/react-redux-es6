@@ -8,3 +8,10 @@ console.log('hi');
 //     );
 //   };
 // });
+
+//Old ES5 Stateless Functional Component
+// var HelloWorld = function(props) {
+//   return (
+//     <h1>Hello World!</h1>
+//   );
+// };
