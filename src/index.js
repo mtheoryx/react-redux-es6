@@ -4,7 +4,7 @@ console.log('hi');
 // var HelloWorld = React.createClass({
 //   render: function() {
 //     return (
-//       <h1>Hello World!</h1>
+//       <h1>Hello world!</h1>
 //     );
 //   };
 // });
