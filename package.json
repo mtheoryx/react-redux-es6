@@ -1,6 +1,6 @@
 {
   "name": "react-redux-es6",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Follow-along for Pluralsight Course",
   "main": "index.js",
   "keywords": ["training", "react", "redux", "pluralsight"],
