@@ -9,7 +9,7 @@ Complete the course, understand create-react-app in depth.
 
 ## Current Working Goal
 
-Go through env setup videos
+Go through the Initial App Structure videos
 
 ## Course Outline
 
