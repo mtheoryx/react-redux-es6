@@ -9,3 +9,11 @@
 - Webpack (1.13)
 - nvm
 - Node 6+
+
+# The many ways to create a React Component
+
+- ES5 createClass
+- ES6 class
+- ES5 stateless function
+- ES6 stateless function
+- And many more...
