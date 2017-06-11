@@ -15,3 +15,15 @@ console.log('hi');
 //     <h1>Hello World!</h1>
 //   );
 // };
+
+//ES6 Stateless Functional Component
+// const HelloWorld = (props) => {
+//   return (
+//     <h1>Hello ES6 World!</h1>
+//   )
+// };
+
+//Even simpler ES6 Statelss Functional Component
+// const HelloWorld = props => (
+//   <h1>Hello ES6 World, simplified!</h1>
+// );
