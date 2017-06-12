@@ -75,7 +75,22 @@ to pick up changes to the new file, no reload needed.
 
 ## Do I need redux?
 
+VanillaJS -> jQuery -> React -> React + Router -> React + Redux + Router
+---
+Simple (no setup) -> Complex (significant setup)
 
+- Complex data flows
+- Inter-component communication
+- 2 components manipulating the same data
+- Non-heirarchical data
+- Many actions
+- Same data used in multiple places
+
+---
+"...If you aren't sure if you need it, you don't need it."
+
+Pete Hunt on Redux
+---
 
 ## 3 Core Principles
 
