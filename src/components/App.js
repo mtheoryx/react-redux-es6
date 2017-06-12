@@ -1,20 +1,22 @@
 // This handles the App template on every "page"
-import React from 'react';
+import React, { PropTypes } from 'react';
 
 //Declare that
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <p>Header here...</p>
+      <div className="container-fluid">
+        <p>Header pending...</p>
         {this.props.children}
       </div>
     );
   }
-};
+}
 
 //Proptypes
+App.propTypes = {
+  children: PropTypes.object.isRequired
+};
 
-
-//Export that
-export default App.
+//Default export
+export default App;

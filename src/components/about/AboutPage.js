@@ -7,8 +7,8 @@ class AboutPage extends React.Component {
         <h1>About</h1>
         <p>This application uses some awesome stuff!</p>
       </div>
-    )
+    );
   }
-};
+}
 
 export default AboutPage;
