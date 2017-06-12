@@ -9,7 +9,7 @@ Complete the course, understand create-react-app in depth.
 
 ## Current Working Goal
 
-Intro to redux
+Actions, stores, reducers segment
 
 ## Course Outline
 
@@ -17,7 +17,7 @@ Intro to redux
 - [x] Environment Setup
 - [x] React Component Approaches
 - [x] Initial App Structure
-- [ ] Intro to Redux
+- [x] Intro to Redux
 - [ ] Actions, Stores, and Reducers
 - [ ] Connecting React to Redux
 - [ ] Redux Flow
