@@ -9,13 +9,13 @@ Complete the course, understand create-react-app in depth.
 
 ## Current Working Goal
 
-Go through the Initial App Structure videos
+Create a course page
 
 ## Course Outline
 
 - [x] Intro
 - [x] Environment Setup
-- [ ] React Component Approaches
+- [x] React Component Approaches
 - [ ] Initial App Structure
 - [ ] Intro to Redux
 - [ ] Actions, Stores, and Reducers
