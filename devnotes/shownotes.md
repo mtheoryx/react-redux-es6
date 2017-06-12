@@ -54,3 +54,19 @@
 | Smart           | Dumb           |
 | Statefull       | Stateless      |
 | Controller View | View           |
+
+# Components, initial app structure, etc
+
+There was a limitation at around react v15 where you need to have
+some top level class component in order to have hot reloading for
+child stateless functional components.
+
+Webpack can load css into components with imports.
+
+If you change the top level html file, webpack won't pick
+that up for hot reloading, so you need a manual refresh.
+
+## Hot reload js files
+
+Webpack and HMR will pick up new JS files, and will continue
+to pick up changes to the new file, no reload needed.
