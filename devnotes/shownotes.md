@@ -70,3 +70,5 @@ that up for hot reloading, so you need a manual refresh.
 
 Webpack and HMR will pick up new JS files, and will continue
 to pick up changes to the new file, no reload needed.
+
+# Intro to Redux
