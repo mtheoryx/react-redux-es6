@@ -9,7 +9,7 @@ Complete the course, understand create-react-app in depth.
 
 ## Current Working Goal
 
-Catchup with styles and make the app header, with styles.
+Create a course page
 
 ## Course Outline
 

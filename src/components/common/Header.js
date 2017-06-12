@@ -15,6 +15,12 @@ const Header = () => {
         activeClassName="active">
         About
       </Link>
+      {" | "}
+      <Link
+        to="/courses"
+        activeClassName="active">
+        Courses
+      </Link>
     </nav>
   );
 };
