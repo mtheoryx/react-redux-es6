@@ -94,6 +94,10 @@ Pete Hunt on Redux
 
 ## 3 Core Principles
 
+1. All application state in a single immutable store
+2. The only way to mutate state is to emit an action
+3. State is changed only by pure functions (reducers)
+
 ## Flux vs Redux
 
 ## Full redux flow
