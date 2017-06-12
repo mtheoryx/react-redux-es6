@@ -135,6 +135,15 @@ pure functions called reduces.
 | React components subscribe to stores | Container components use connect |
 | State is mutated | State is immutable, you have to return a new state |
 
-
-
 ## Full redux flow
+
+Actions describe user intent. Actions always have a type. The data can be
+any form you need. But there must be an action type.
+
+That action is ultimately handled by a reducer. It's really just a function
+that returns new state.
+
+Reducers typically container a switch statement.
+
+The store is updated, and any components connected to the store are
+automatically updated via Virtual DOM diffing.
