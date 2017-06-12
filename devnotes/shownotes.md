@@ -72,3 +72,13 @@ Webpack and HMR will pick up new JS files, and will continue
 to pick up changes to the new file, no reload needed.
 
 # Intro to Redux
+
+## Do I need redux?
+
+
+
+## 3 Core Principles
+
+## Flux vs Redux
+
+## Full redux flow
