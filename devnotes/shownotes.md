@@ -147,3 +147,27 @@ Reducers typically container a switch statement.
 
 The store is updated, and any components connected to the store are
 automatically updated via Virtual DOM diffing.
+
+# Actions, Stores, reducers
+
+## Actions
+
+- Must have a type
+- Data can be whatever you want, as long as it is serializable.
+- Use action creators
+
+## The Store
+
+- createStore function, and you pass a reducer for the store
+- A single store is not a limitation. It is a single source of truth
+- No api for changing data in the store. Must use an action.
+- Actions are only handled by reducers.
+
+## Immutability
+
+- To change state, return a new object, simple as that.
+- Number, string, boolean, undefined, null... already immutable.
+- Objects, arrays, functions... mutable!
+- Redux relies on immutable state for performance
+- Use Object.assign(target, ...sources)
+- Example Object.assign({}, state, {role: 'admin'});
