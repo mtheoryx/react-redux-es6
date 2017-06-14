@@ -1,4 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import rootReducer from '../reducers';
 import reduxImmutableStateInvariant from 'redux-immutable-state-invariant';
 
@@ -6,6 +7,8 @@ export default function configureStore(initialState) {
   return createStore(
     rootReducer,
     initialState,
-    applyMiddleware(reduxImmutableStateInvariant())
+    composeWithDevTools(
+      applyMiddleware(reduxImmutableStateInvariant())
+    )
   );
 }

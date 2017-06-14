@@ -3,7 +3,12 @@
   "version": "1.1.1",
   "description": "Follow-along for Pluralsight Course",
   "main": "index.js",
-  "keywords": ["training", "react", "redux", "pluralsight"],
+  "keywords": [
+    "training",
+    "react",
+    "redux",
+    "pluralsight"
+  ],
   "author": "David R Poindexter III",
   "license": "MIT",
   "bugs": {
@@ -11,13 +16,13 @@
   },
   "homepage": "https://github.com/mtheoryx/react-redux-es6#readme",
   "scripts": {
-      "prestart": "babel-node tools/startMessage.js",
-      "start": "npm-run-all --parallel open:src lint:watch test:watch",
-      "open:src": "babel-node tools/srcServer.js",
-      "lint": "node_modules/.bin/esw webpack.config.* src tools",
-      "lint:watch": "npm run lint -- --watch",
-      "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
-      "test:watch": "npm run test -- --watch"
+    "prestart": "babel-node tools/startMessage.js",
+    "start": "npm-run-all --parallel open:src lint:watch test:watch",
+    "open:src": "babel-node tools/srcServer.js",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint:watch": "npm run lint -- --watch",
+    "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
     "babel-polyfill": "6.8.0",
@@ -62,6 +67,7 @@
     "npm-run-all": "1.8.0",
     "open": "0.0.5",
     "react-addons-test-utils": "15.0.2",
+    "redux-devtools-extension": "^2.13.2",
     "redux-immutable-state-invariant": "1.2.3",
     "redux-mock-store": "1.0.2",
     "rimraf": "2.5.2",
