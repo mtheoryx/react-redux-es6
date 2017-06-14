@@ -9,7 +9,7 @@ Complete the course, understand create-react-app in depth.
 
 ## Current Working Goal
 
-Connecting React to Redux
+Redux Flow - creating a new course
 
 ## Course Outline
 
