@@ -179,3 +179,76 @@ automatically updated via Virtual DOM diffing.
 - If an unknown action is passed to a reducer, the current state is reduced
 - Reducer composition: An action can be handled by some, none, or all of
   your reducers.
+
+# Connecting React to Redux
+
+## Provider
+
+```jsx
+<Provider store={this.props.store}>
+  <App />
+</Provider>
+```
+
+**Note**: React's context is useful for library authors, but dangerous for you
+as the developer.
+
+## Connect
+
+```jsx
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(AuthorPage);
+```
+
+### mapStateToProps
+
+Defines what slice of the store will be exposed to your
+container components.
+
+```jsx
+function mapStateToProps(state) {
+  return {
+    appState: state
+  };
+}
+```
+
+#### Reselect
+
+Memoize for performance. It's like cacheing for function calls. Especially
+useful if you're doing expensive options in your mapStateToProps function.
+
+### mapDispatchToProps 3 ways to handle in react-redux
+
+1. Omit it. You can use dispatch() manually.
+
+```jsx
+this.props.dispatch(loadCourses());
+```
+
+2. Manually wrap
+
+```jsx
+function mapDispatchToProps(dispatch) {
+  return {
+    loadCourses: () => {
+      dispatch(loadCourses());
+    }
+  };
+}
+```
+
+3. Use bindActionCreators, convenience method for option 2
+
+```jsx
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(actions, dispatch)
+  };
+}
+```
+
+Option 2 is great for getting started, but has a lot of redundancy, so you
+will eventually want to use option 3.

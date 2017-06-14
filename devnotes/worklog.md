@@ -9,7 +9,7 @@ Complete the course, understand create-react-app in depth.
 
 ## Current Working Goal
 
-Actions, stores, reducers segment
+Connecting React to Redux
 
 ## Course Outline
 
@@ -18,8 +18,8 @@ Actions, stores, reducers segment
 - [x] React Component Approaches
 - [x] Initial App Structure
 - [x] Intro to Redux
-- [ ] Actions, Stores, and Reducers
-- [ ] Connecting React to Redux
+- [x] Actions, Stores, and Reducers
+- [x] Connecting React to Redux
 - [ ] Redux Flow
 - [ ] Async in Redux
 - [ ] Async Writes in Redux
