@@ -5,11 +5,13 @@
 
 ## Overall objective
 
-Complete the course, understand create-react-app in depth.
+- Complete the course
+- Understand react and redux, in depth
+- Working, tested demo application
 
 ## Current Working Goal
 
-Redux Flow - creating a new course
+Async in redux segment
 
 ## Course Outline
 
