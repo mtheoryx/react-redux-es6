@@ -266,3 +266,47 @@ will eventually want to use option 3.
 - Performance concerns can be masked, so test; you can simulate slowness
 - Helps with automated testing, and data is deterministic
 - Easily point to real API later, using a config setting
+
+## 2 Most populast (as of June 2017)
+
+**Thunks**
+
+Uses functions.
+
+Clunky to test. Requires mocks.
+
+Conceptually simple.
+
+Better to try first as you're learning.
+
+**Sagas**
+
+Uses generators.
+
+Easy to test.
+
+Hard to learn. Large API.
+
+Great choice to move to after experiencing pain points.
+
+### What is a thunk?
+
+Here's an example of a thunk for deleting an author:
+
+```jsx
+export function deleteAuthor(authorID) {
+  return dispatch => {
+    return AuthorApi.deleteAuthor(authorId)
+      .then(() => {
+        dispatch(deleteAuthor(authorId));
+      })
+      .catch(handleError);
+  }
+}
+```
+
+A Thunk is a computer science term.
+
+A Thunk is a function that wraps and expression in order to delay
+its evaluation. Returning functions from functions is a common thing
+in functional programming.
