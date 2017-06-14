@@ -171,3 +171,11 @@ automatically updated via Virtual DOM diffing.
 - Redux relies on immutable state for performance
 - Use Object.assign(target, ...sources)
 - Example Object.assign({}, state, {role: 'admin'});
+
+## Reduces
+
+- Reducers accept the current state, and an action. It returns new state.
+- Each reducer only handles it's slice of state.
+- If an unknown action is passed to a reducer, the current state is reduced
+- Reducer composition: An action can be handled by some, none, or all of
+  your reducers.
