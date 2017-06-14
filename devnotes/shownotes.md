@@ -252,3 +252,17 @@ function mapDispatchToProps(dispatch) {
 
 Option 2 is great for getting started, but has a lot of redundancy, so you
 will eventually want to use option 3.
+
+# Async in Redux
+
+## Mock api
+
+- Lets you start development immediately
+- If you can agree on the eventual shape of the data, you can get going
+- Not reliant on other developers to ship backend code. Non-blocking
+- Coding to an interface instead of an implementation
+- Don't have to halt development if a backend service goes down
+- Ultra fast, all responses are local (or instantaneous, if you like)
+- Performance concerns can be masked, so test; you can simulate slowness
+- Helps with automated testing, and data is deterministic
+- Easily point to real API later, using a config setting
