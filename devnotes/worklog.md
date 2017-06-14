@@ -20,7 +20,7 @@ Redux Flow - creating a new course
 - [x] Intro to Redux
 - [x] Actions, Stores, and Reducers
 - [x] Connecting React to Redux
-- [ ] Redux Flow
+- [x] Redux Flow
 - [ ] Async in Redux
 - [ ] Async Writes in Redux
 - [ ] Async Status and Error Handling
