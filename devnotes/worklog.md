@@ -13,6 +13,8 @@
 
 Async Writes in Redux segment
 
+- Handle changes to our form
+
 ## Course Outline
 
 - [x] Intro
