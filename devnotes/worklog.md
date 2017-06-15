@@ -23,7 +23,7 @@ Async in redux segment
 - [x] Actions, Stores, and Reducers
 - [x] Connecting React to Redux
 - [x] Redux Flow
-- [ ] Async in Redux
+- [x] Async in Redux
 - [ ] Async Writes in Redux
 - [ ] Async Status and Error Handling
 - [ ] Testing React
