@@ -11,7 +11,7 @@
 
 ## Current Working Goal
 
-Async in redux segment
+Async Writes in Redux segment
 
 ## Course Outline
 
