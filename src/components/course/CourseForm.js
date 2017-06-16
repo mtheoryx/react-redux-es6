@@ -6,11 +6,12 @@ const CourseForm = ({ course, allAuthors, onSave, onChange, loading, errors }) =
   return (
     <form>
       <h1>Manage Course</h1>
-      
+
       <TextInput
         name="title"
         label="Title"
         value={course.title}
+        onChange={onChange}
         error={errors.title}
       />
 
