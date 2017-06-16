@@ -5,3 +5,6 @@ export const UPDATE_COURSE_SUCCESS = 'UPDATE_COURSE_SUCCESS';
 
 // Author Action Types
 export const LOAD_AUTHORS_SUCCESS = 'LOAD_AUTHORS_SUCCESS';
+
+//Loading animation types
+export const BEGIN_AJAX_CALL = 'BEGIN_AJAX_CALL';

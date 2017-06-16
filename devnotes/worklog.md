@@ -11,9 +11,7 @@
 
 ## Current Working Goal
 
-Async Writes in Redux segment
-
-- Handle changes to our form
+Async status and error handling segment
 
 ## Course Outline
 
@@ -26,7 +24,7 @@ Async Writes in Redux segment
 - [x] Connecting React to Redux
 - [x] Redux Flow
 - [x] Async in Redux
-- [ ] Async Writes in Redux
+- [x] Async Writes in Redux
 - [ ] Async Status and Error Handling
 - [ ] Testing React
 - [ ] Testing Redux
