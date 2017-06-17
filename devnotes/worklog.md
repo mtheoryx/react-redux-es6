@@ -11,7 +11,7 @@
 
 ## Current Working Goal
 
-Async status and error handling segment
+Testing react segment
 
 ## Course Outline
 
@@ -25,7 +25,7 @@ Async status and error handling segment
 - [x] Redux Flow
 - [x] Async in Redux
 - [x] Async Writes in Redux
-- [ ] Async Status and Error Handling
+- [x] Async Status and Error Handling
 - [ ] Testing React
 - [ ] Testing Redux
 - [ ] Production Builds
