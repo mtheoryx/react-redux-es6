@@ -22,7 +22,6 @@ function setup(saving) {
     output,
     renderer
   };
-
 }
 
 describe('CourseForm via React Test Utils', () => {
