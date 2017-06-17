@@ -310,3 +310,79 @@ A Thunk is a computer science term.
 A Thunk is a function that wraps and expression in order to delay
 its evaluation. Returning functions from functions is a common thing
 in functional programming.
+
+# Testing React
+
+Mocha is mature, well supported, and used in this course.
+
+Jest is from facebook, and more of a wrapper around jasmine, but
+is maturing quickly.
+
+AVA is relatively new, but offers some amazing promise in the future.
+
+## Helpers
+
+### React Test utils
+
+- shallowRender
+- Renders a single Component
+- No DOM required
+- prefer this approach because it's fast
+
+- renderIntoDocument
+- requires a DOM, but not really a browser
+- supports simulating actions
+
+#### DOM interactions
+
+- wordy, weird method names
+- there are some alternatives to consider
+- Simulate is useful for simulating interactions once you
+  finally have a DOM component reference.
+
+### Enzyme
+
+- Recommended right on the react test utils page
+- From Airbnb, excellent documentation
+- Looks a lot like jQuery, as far as selectors
+- An abstraction of React Test Utils
+- But also uses JSDOM to provide an in-memory DOM
+- And uses Cheerio to provide fast jQuery style selectors
+
+## Where to run tests?
+
+### browser
+
+- slower
+
+### Headless browser
+
+- faster
+
+### In-memory DOM
+
+- Benefits of headless
+- MUCH faster than other options
+- quick to set up
+- You can just run your test with node
+
+## Naming tests
+
+- x.test.js is the preferred convention
+
+## Where to place them?
+
+- Placing the test alongside the file under test
+- Imports are clean
+- Less distraction
+- Clear visibility to tests, so you can notice a file that
+  lacks a corresponding test file.
+- refactoring or moving is easier since they will always live
+  alongside each other
+
+## Course test plan summary:
+
+- React components and Redux
+- Mocha with Expect
+- In-memory DOM via JSDOM
+- Enzyme test helper
