@@ -11,7 +11,7 @@
 
 ## Current Working Goal
 
-Testing react segment
+Testing redux segment
 
 ## Course Outline
 
@@ -26,6 +26,6 @@ Testing react segment
 - [x] Async in Redux
 - [x] Async Writes in Redux
 - [x] Async Status and Error Handling
-- [ ] Testing React
+- [x] Testing React
 - [ ] Testing Redux
 - [ ] Production Builds
