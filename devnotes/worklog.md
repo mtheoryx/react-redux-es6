@@ -11,7 +11,7 @@
 
 ## Current Working Goal
 
-Testing redux segment
+Production builds (with docker!)
 
 ## Course Outline
 
@@ -27,5 +27,5 @@ Testing redux segment
 - [x] Async Writes in Redux
 - [x] Async Status and Error Handling
 - [x] Testing React
-- [ ] Testing Redux
+- [x] Testing Redux
 - [ ] Production Builds
