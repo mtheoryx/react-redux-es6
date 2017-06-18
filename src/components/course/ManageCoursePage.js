@@ -3,9 +3,10 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import toastr from 'toastr';
 import * as courseActions from '../../actions/courseActions';
+import { authorsFormattedForDropdown } from '../../selectors/selectors';
 import CourseForm from './CourseForm';
 
-export class ManageCoursePage extends React.Component {
+export class ManageCoursePageBase extends React.Component {
   constructor(props, context) {
     super(props, context);
 
@@ -84,14 +85,14 @@ export class ManageCoursePage extends React.Component {
   }
 }
 
-ManageCoursePage.propTypes = {
+ManageCoursePageBase.propTypes = {
   course: PropTypes.object.isRequired,
   authors: PropTypes.array.isRequired,
   actions: PropTypes.object.isRequired
 };
 
 //Pull in router context so it's available on this.context.router
-ManageCoursePage.contextTypes = {
+ManageCoursePageBase.contextTypes = {
   router: PropTypes.object
 };
 
@@ -109,16 +110,9 @@ function mapStateToProps(state, ownProps) {
     course = getCourseById(state.courses, courseId);
   }
 
-  const authorsFormattedForDropdown = state.authors.map(author => (
-    {
-        value: author.id,
-        text: `${author.firstName} ${author.lastName}`
-    }
-  ));
-
   return {
     course: course,
-    authors: authorsFormattedForDropdown
+    authors: authorsFormattedForDropdown(state.authors)
   };
 }
 
@@ -128,4 +122,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ManageCoursePage);
+export default connect(mapStateToProps, mapDispatchToProps)(ManageCoursePageBase);
