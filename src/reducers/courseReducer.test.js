@@ -2,7 +2,7 @@ import expect from 'expect';
 import courseReducer from './courseReducer';
 import * as actions from '../actions/courseActions';
 
-describe.only('Course Reducer', () => {
+describe('Course Reducer', () => {
   it('should add course when passed CREATE_COURSE_SUCCESS', () => {
     // arrange
     const initialState = [

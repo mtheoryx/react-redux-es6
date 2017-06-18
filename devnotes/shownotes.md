@@ -386,3 +386,16 @@ AVA is relatively new, but offers some amazing promise in the future.
 - Mocha with Expect
 - In-memory DOM via JSDOM
 - Enzyme test helper
+
+# Testing
+
+## Testing Thunks
+
+Thunks handle asynchrony, often dispatching multiple actions.
+Trickier than testing reducers, and MUCH trickier than testing
+action creators.
+
+Need to mock:
+
+- Store (use redux-mock-store)
+- HTTP calls (use nock, which stands for Node Mock)
