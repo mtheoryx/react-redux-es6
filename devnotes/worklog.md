@@ -29,3 +29,18 @@ Additional challenges
 - [x] Testing React
 - [x] Testing Redux
 - [x] Production Builds
+
+## Additional challenges
+
+**Note**: Several of these are covered in the react and flux course
+
+Author administration (validate can't remove author who has a course)
+Delete course
+Hide empty course list once all courses are deleted
+Unsaved changes messaging
+Enhance client side validation
+Handle 404s (add logic to mapStateToProps)
+Show # courses in the header
+Pagination or infinite scrolling
+Table sorting by title by default (mapStateToProps)
+Revert abandoned changes
