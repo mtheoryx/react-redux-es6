@@ -11,7 +11,7 @@
 
 ## Current Working Goal
 
-Production builds (with docker!)
+Additional challenges
 
 ## Course Outline
 
@@ -28,4 +28,4 @@ Production builds (with docker!)
 - [x] Async Status and Error Handling
 - [x] Testing React
 - [x] Testing Redux
-- [ ] Production Builds
+- [x] Production Builds
