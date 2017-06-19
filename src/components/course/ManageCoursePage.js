@@ -45,8 +45,12 @@ export class ManageCoursePageBase extends React.Component {
       formIsValid = false;
 
       this.setState({errors: errors});
-      return formIsValid;
+    } else {
+      formIsValid = true;
+      this.setState({errors: {}});
     }
+
+    return formIsValid;
   }
 
   saveCourse(event) {

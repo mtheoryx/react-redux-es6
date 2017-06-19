@@ -14,9 +14,9 @@ app.get('*', (req,res) => {
 });
 
 app.listen(port, error => {
-  if (err) {
-    console.log(err);
+  if (error) {
+    console.log(error);
   } else {
     console.log(`Server started at http://localhost:${port}`);
   }
-})
+});

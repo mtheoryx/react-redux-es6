@@ -4,7 +4,7 @@ import rootReducer from '../reducers';
 import initialState from '../reducers/initialState';
 import * as courseActions from '../actions/courseActions';
 
-describe.only('Store', () => {
+describe('Store', () => {
   it('should handle creating courses', () => {
     // arrange
     const store = createStore(rootReducer, initialState);

@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# app dist files (deploy config TBD)
+dist/
